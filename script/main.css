@@ -26,7 +26,8 @@ body {
 
 .nav{
 	display: flex;
-  	background-color: #333;
+  background-color: #333;
+  flex-wrap: wrap;
 }
 
 .nav a{
@@ -79,7 +80,7 @@ body {
 }
 
 .left {
-  	flex: 20%;
+  	flex: 25%;
   	background-color: #f1f1f1;
   	text-align: center;
   	border: 2px solid transparent;
@@ -134,4 +135,29 @@ body {
 .fa-instagram {
   	background: #125688;
   	color: white;
+}
+.right img{
+  width:100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .section, .nav {   
+    flex-direction: column;
+
+  }
+  .middle{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-device-width : 750px) and (max-device-width : 1024px) {
+  .section, .nav {   
+    flex-direction: column;
+
+  }
+  .middle{
+    flex-direction: column;
+  }
+
 }
