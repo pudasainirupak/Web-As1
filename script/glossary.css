@@ -53,7 +53,8 @@ body {
   	text-align: center;
   	border: 2px solid transparent;
   	border-color: black;
-}
+  	
+  }
 .right h2{
 	color: blue;
 }
@@ -68,6 +69,7 @@ body {
   	text-align: center;
   	border: 2px solid transparent;
   	border-color: black;
+  	background: url(1.png);
 }
 .left h2{
 	color: blue;
@@ -141,9 +143,9 @@ body {
 
 }
 
-iframe{
-  	width: 95%;
-  	height: 240px;
+.vid1{
+  	width: 90%;
+  	height: 400px;
 
 }
 .slider{
@@ -154,7 +156,7 @@ iframe{
   	background: url(glossary.jpg);
   	background-repeat: no-repeat;
   	background-position: center;
-  	background-size: 80%;
+  	background-size: 90%;
   	margin: 10px;
 
 }
@@ -162,29 +164,74 @@ iframe{
 @keyframes slide{
 
   25%{
-    background: url(1.png);
-    background-size: 80%;
+    background: url(1.png);/*http://www.creativefaze.com/sites/default/files/website%20development.png*/
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
   }
   50%{
-    background: url(2.png);
-    background-size: 80%;
+    background: url(2.png);/*http://www.fluentsolutions.com/public/fluent_theme/images/slide-1.jpg*/
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
   }
   75%{
     background: url(1.png);
-    background-size: 80%;
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
   }
   100%{
     background: url(2.png);
-    background-size: 80%;
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
   }
   
 
+}
+.center {  
+  	display: flex;
+  	flex-wrap: wrap;
+}
+
+.right1 {
+ 
+  	flex: 60%;
+  	background-color: #f1f1f1;
+  	border: 2px solid transparent;
+  	border-color: black;
+}
+.right1 h2{
+	color: blue;
+}
+
+.left1 {
+  	flex: 10%;
+  	background-color: #f1f1f1;
+  	border: 2px solid transparent;
+  	border-color: black;
+  	text-align: center;
+
+}
+.left1 h2{
+	color: blue;
+}
+.middle1{
+	flex: 20%;
+  	background-color: #f1f1f1;
+   	text-align: center;
+   	margin: 30px;
+
+}
+.vid-sec{
+	
+	flex: 50%;
+  	background-color: #f1f1f1;
+ 	text-align: center;
+
+}
+.between{
+	display: flex;
+	flex-wrap: wrap;
 }
