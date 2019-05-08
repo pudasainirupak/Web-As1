@@ -4,28 +4,28 @@ body {
 }
 
 .header{
-  padding: 20px;
-  text-align: center;
-  background-image: url(new.png);
-  background-position: center;
-  background-repeat: no-repeat; 
-  text-shadow: 2px 2px;
-  background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+	background-image: url(new.png);
+	background-position: center;
+	background-repeat: no-repeat; 
+	text-shadow: 2px 2px;
+	background-color: #f1f1f1;
 }
 
 .header img {
-  border: 2px solid transparent;
-  float: left;
-  border-radius: 30%;
-  height: 100px;
-  padding: 10px;
+	border: 2px solid transparent;
+	float: left;
+	border-radius: 30%;
+	height: 100px;
+	padding: 10px;
 }
 .header h1 ,h4{
-  color: blue;
+	color: blue;
 }
 
 .nav{
-  display: flex;
+	display: flex;
   background-color: #333;
   flex-wrap: wrap;
 }
@@ -48,23 +48,22 @@ body {
 }
 
 .section{
-  
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f1f1f1;
-  border: 2px solid transparent;
-  border-color: black;
-
+	
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f1f1f1;
+	border: 2px solid transparent;
+	border-color: black;
 }
 .section h2{
-  color: blue;
+	color: blue;
 
 }
 
 .content{
-  text-align: center;
-  flex: 70%;
- 
+	text-align: center;
+	flex: 70%;
+	
 }
 
 .right {
@@ -76,7 +75,7 @@ body {
   border-color: black;
 }
 .right h2{
-  color: blue;
+	color: blue;
 }
 .middle {  
   display: flex;
@@ -89,26 +88,22 @@ body {
   text-align: center;
   border: 2px solid transparent;
   border-color: black;
-  /*background: url(bg.png);*/
-  background-repeat: no-repeat;
-  background-size: 100%;
- 
 }
 .left h2{
-  color: blue;
+	color: blue;
 }
 
 .footer{
-  border: 2px solid transparent;
-  border-color: black;
-  text-align: center;
-  background-color: rgb(0,0,0);
-  font-size: 18px;
-  color: white;
+	border: 2px solid transparent;
+	border-color: black;
+	text-align: center;
+	background-color: rgb(0,0,0);
+	font-size: 18px;
+	color: white;
 
 }
 .left img{
-  width:100%;
+	width:100%;
 }
 
 .fa {
@@ -170,3 +165,12 @@ body {
 
 }
 
+.left iframe{
+  width: 85%;
+  height: 240px;
+
+}
+.right iframe{
+  width: 90%;
+  height: 400px;
+}
