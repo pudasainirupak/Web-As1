@@ -11,6 +11,7 @@ body {
 	background-repeat: no-repeat; 
 	text-shadow: 2px 2px;
 	background-color: #f1f1f1;
+	/*font-family: 'Alice', serif;*/
 }
 
 .header img {
@@ -21,7 +22,7 @@ body {
 	padding: 10px;
 }
 .header h1 ,h4{
-	color: blue;
+	color: white;
 }
 
 .nav{
@@ -57,6 +58,7 @@ body {
   }
 .right h2{
 	color: blue;
+	font-family: 'Fredericka the Great', cursive;
 }
 .middle {  
   	display: flex;
@@ -72,8 +74,14 @@ body {
   	background: url(1.png);
 }
 .left h2{
-	color: blue;
+	color: white;
+	font-family: 'Fredericka the Great', cursive;
 }
+.left h1{
+	color: white;
+	font-family: 'Fredericka the Great', cursive;
+}
+
 
 .footer{
 	border: 2px solid transparent;
@@ -202,8 +210,10 @@ body {
   	border: 2px solid transparent;
   	border-color: black;
 }
-.right1 h2{
+.right1 h1{
 	color: blue;
+	font-family: 'Fredericka the Great', cursive;
+
 }
 
 .left1 {
@@ -215,6 +225,7 @@ body {
 
 }
 .left1 h2{
+	font-family: 'Fredericka the Great', cursive;
 	color: blue;
 }
 .middle1{

@@ -11,6 +11,7 @@ body {
 	background-repeat: no-repeat; 
 	text-shadow: 2px 2px;
 	background-color: #f1f1f1;
+  /*font-family: 'Alice', serif;*/
 }
 
 .header img {
@@ -21,7 +22,7 @@ body {
 	padding: 10px;
 }
 .header h1 ,h4{
-	color: blue;
+	color: white;
 }
 
 .nav{
@@ -57,6 +58,7 @@ body {
 }
 .section h2{
 	color: blue;
+  font-family: 'Fredericka the Great', cursive;
 
 }
 
@@ -76,6 +78,7 @@ body {
 }
 .right h2{
 	color: blue;
+  font-family: 'Fredericka the Great', cursive;
 }
 .middle {  
   display: flex;
@@ -91,7 +94,15 @@ body {
 }
 .left h2{
 	color: blue;
+  font-family: 'Fredericka the Great', cursive;
 }
+
+.left h1{
+  color: blue;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+
 
 .footer{
 	border: 2px solid transparent;
