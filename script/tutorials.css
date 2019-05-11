@@ -1,123 +1,118 @@
 body {
-  margin: 0;
+  margin: 0;/* removing unneccessary gapping*/
   background-color: #A9A9F5;
 }
 
 .header{
-	padding: 20px;
-	text-align: center;
-	background-image: url(new.png);
-	background-position: center;
-	background-repeat: no-repeat; 
-	text-shadow: 2px 2px;
-	background-color: #f1f1f1;
+  padding: 20px; /*padding the content in all side by 20px*/
+  text-align: center;/*position text at center*/
+  background-image: url(new.png); /*giving background image*/
+  background-position: center;/*positioning the image to the center*/
+  background-repeat: no-repeat;/*making background non repeating*/
+  text-shadow: 2px 2px;/*giving shadow to the text*/
+  background-color: #f1f1f1;
   /*font-family: 'Alice', serif;*/
 }
 
 .header img {
-	border: 2px solid transparent;
-	float: left;
-	border-radius: 30%;
-	height: 100px;
-	padding: 10px;
+  border: 2px solid transparent; /* giving border to header img class*/
+  float: left; /*float only used for logo*/
+  border-radius: 30%;/*for making curve type of image*/
+  height: 100px;
+  padding: 10px;
 }
 .header h1 ,h4{
-	color: white;
+
+  color: white;/*setting text color to white*/
 }
 
 .nav{
-	display: flex;
-  background-color: #333;
-  flex-wrap: wrap;
+  display: flex;/*giving flex property to navigation bar*/
+  background-color: #333;/* setting background color */
+  flex-wrap: wrap; /*for wrapping the content on navigation bar*/
 }
 
-.nav a{
-  color: #f1f1f1;
-  padding: 18px 100px;
+.nav a{  /*for anchor text in nav class*/
+  color: #f1f1f1;/*setting same color*/
+  padding: 18px 100px; /*padding the nav items for better spacing*/
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-around;/*making the content act as space around*/
 }
 
-.nav a:hover{
-  background-color: #ddd;
-  color: black;
+.nav a:hover{ /*for animating the object in nav class when mouse pointer point in this section*/
+  background-color: #ddd; /* adding brown silver background color*/ 
+  color: black;/*setting text color to black*/
 }
 
-.nav .this {
-  background-color: silver;
+.nav .this { /* for making higlighting nav object which the page is opened*/ 
+  background-color: silver;/*adding silver color in background*/
   color: black;
 }
 
 .section{
-	
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #f1f1f1;
-	border: 2px solid transparent;
-	border-color: black;
+  
+  display: flex;/*using flex property for section class*/
+  flex-wrap: wrap;/*for wrapping the content on section class*/
+  background-color: #f1f1f1;/*setting the background color in hexadecimal code*/
+  border: 2px solid transparent;/*setting border*/
+  border-color: black;
 }
 .section h2{
-	color: blue;
-  font-family: 'Fredericka the Great', cursive;
+  color: blue;/*section heading h2 color as blue*/
+  font-family: 'Fredericka the Great', cursive;/*using google fonts*/
 
 }
 
 .content{
 	text-align: center;
-	flex: 70%;
+	flex: 70%;/*making content class flexible by 70%*/
 	
 }
 
 .right {
  
-  flex: 60%;
-  background-color: #f1f1f1;
+  flex: 60%; /*making right class flexible by 60%*/
+  background-color: #f1f1f1;/*giving same background color*/
   text-align: center;
-  border: 2px solid transparent;
-  border-color: black;
+  border: 2px solid transparent;/*giving same border */
+  border-color: black; /*coloring the border as black*/
+    
 }
 .right h2{
-	color: blue;
-  font-family: 'Fredericka the Great', cursive;
+  color: blue; /*making right h2 text color as blue*/
+  font-family: 'Fredericka the Great', cursive;/*using google font family*/
 }
 .middle {  
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; /*display middle class as flexible*/
+  flex-wrap: wrap;/* wrapping the content in middle class*/
 }
 
 .left {
-  flex: 35%;
-  background-color: #f1f1f1;
+  flex: 35%;/*making left class flexible by 25% */
+  background-color: #f1f1f1;/*giving same background color*/
   text-align: center;
-  border: 2px solid transparent;
-  border-color: black;
+  border: 2px solid transparent;/*giving same border */
+  border-color: black;/*coloring the border as black*/
 }
 .left h2{
-	color: blue;
-  font-family: 'Fredericka the Great', cursive;
+  color: blue;/*making left h2 color as blue*/
+  font-family: 'Fredericka the Great', cursive;/*using google font family*/
 }
-
-.left h1{
-  color: blue;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-
 
 .footer{
-	border: 2px solid transparent;
-	border-color: black;
-	text-align: center;
-	background-color: rgb(0,0,0);
-	font-size: 18px;
-	color: white;
+  border: 2px solid transparent;/*giving same border */
+  border-color: black;/*coloring the border as black*/
+  text-align: center;/*making text position in center*/
+  background-color: rgb(0,0,0);/*setting background color with rgb combination as 0,0,0 which represent black*/
+  font-size: 18px;/*giving size to the font*/
+  color: white;
 
 }
 .left img{
 	width:100%;
 }
 
-.fa {
+.fa { /*linking social media icons from w3 school reference*/
   padding: 15px;
   font-size: 20px;
   width: 25px;
@@ -125,39 +120,49 @@ body {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  /*<!--W3schools.com. (2019). How To Create Social Media Buttons. [online] Available at: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp [Accessed 1 May 2019].  -->
+*/
 }
 
 .fa:hover {
   opacity: 0.8;
 }
 
-.fa-facebook {
+.fa-facebook { /*linking social media icons from w3 school reference*/
   background: #3B5998;
   color: white;
+  /*<!--W3schools.com. (2019). How To Create Social Media Buttons. [online] Available at: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp [Accessed 1 May 2019].  -->
+*/
 }
 
-.fa-twitter {
+.fa-twitter { /*linking social media icons from w3 school reference*/
   background: #55ACEE;
   color: white;
+  /*<!--W3schools.com. (2019). How To Create Social Media Buttons. [online] Available at: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp [Accessed 1 May 2019].  -->
+*/
 }
 
-.fa-youtube {
+.fa-youtube { /*linking social media icons from w3 school reference*/
   background: #bb0000;
   color: white;
+  /*<!--W3schools.com. (2019). How To Create Social Media Buttons. [online] Available at: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp [Accessed 1 May 2019].  -->
+*/
 }
 
-.fa-instagram {
+.fa-instagram { /*linking social media icons from w3 school reference*/
   background: #125688;
   color: white;
+  /*<!--W3schools.com. (2019). How To Create Social Media Buttons. [online] Available at: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp [Accessed 1 May 2019].  -->
+*/
 }
 .right img{
   width:100%;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {/*For responsive device width is equal to or less than 600px*/
   .section, .nav {   
-    flex-direction: column;
+    flex-direction: column;/*making direction as column for section and nav class*/
 
   }
   .middle{
@@ -175,13 +180,26 @@ body {
   }
 
 }
+@media screen and (max-width: 400px) {
+  body{
+    width: 96%;
+    background-color: #fff
+  }
+  .section, .nav {   
+    flex-direction: column;
 
-.left iframe{
+  }
+  .middle{
+    flex-direction: column;
+  }
+}
+
+.left iframe{/*left iframe class for youtube video*/
   width: 85%;
   height: 240px;
 
 }
-.right iframe{
+.right iframe{/*right iframe class for youtube video*/
   width: 90%;
   height: 400px;
 }
